@@ -14,7 +14,7 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: xmfhlpy.com
+  servername: ''
 - name: 🇸🇪 SE 02 - xiaohe
   type: vless
   server: 5.178.109.174
