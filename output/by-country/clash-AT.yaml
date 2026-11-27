@@ -5,6 +5,17 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇹 AT 01 - xiaohe
+  type: vmess
+  server: leviko-at0752.shopingggg.ir
+  port: 1270
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+- name: 🇦🇹 AT 02 - xiaohe
   type: vless
   server: 172.67.199.12
   port: 443
@@ -18,17 +29,6 @@ proxies:
     path: /
     headers:
       Host: ancient-haze-d203.vpnetwork3567.workers.dev
-- name: 🇦🇹 AT 02 - xiaohe
-  type: vmess
-  server: leviko-at0752.shopingggg.ir
-  port: 1270
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
 - name: 🇦🇹 AT 03 - xiaohe
   type: ss
   server: 152.53.1.57
